@@ -1,0 +1,21 @@
+.productDetail{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     min-height: 100vh;
+     font-size: larger;
+}
+
+.productDetail .details{
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     color: rgb(234, 230, 230);
+}
+
+.productDetail .details >p>span{
+     color: black;
+     padding: .9rem;
+}

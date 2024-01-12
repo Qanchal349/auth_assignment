@@ -1,0 +1,25 @@
+.singleProduct{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    background-color: #f8f7f7;
+    padding: 1rem 0rem;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.singleProduct >.link{
+    padding: .3rem 1.7rem;
+    font-size: large;
+    background-color: rgb(61, 62, 61);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.singleProduct >p{
+    font-size: large;
+    padding: .2rem .9rem;
+}
